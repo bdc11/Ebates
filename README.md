@@ -3,9 +3,13 @@ Ebates Assignment
 Description
 
 -The script will use python to decode the viki API.
+
 -The response of the API will be a JSON object containing a more key and response key. 
+
 -There are more JSON objects nested in response key. Inside the response key there is a flag key with a hd key inside the flag key.
+
 - It will isolate and evaluate the hd key to see whether it returns true or false and to count the amounts of each.
+
 -The script will iterate through the pages of the link by modifying the URL. It will continuously update the URL as long as more key returns true and will stop iterating once more key returns false. 
 
 
