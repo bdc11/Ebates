@@ -2,13 +2,17 @@ Ebates Assignment
 
 Description
 
-- The script will use python to decode the viki API. The response of the API will be a JSON object containing a more key and response key. There are more JSON objects nested in response key and there is a flag key inside the response key. We are interested in whether the HD key inside the flag key is either true or false. In order to reach the hd key nested in the flag key, we must first examine whether more key is true. If more key is true, there is more information available. This script will iterate through the API until no more data is available (more = false) and count the amount of times hd is true and false on each page. Lastly, it will print out the amount of hd is true and false. 
+-The script will use python to decode the viki API.
+-The response of the API will be a JSON object containing a more key and response key. 
+-There are more JSON objects nested in response key. Inside the response key there is a flag key with a hd key inside the flag key.
+- It will isolate and evaluate the hd key to see whether it returns true or false and to count the amounts of each.
+-The script will iterate through the pages of the link by modifying the URL. It will continuously update the URL as long as more key returns true and will stop iterating once more key returns false. 
 
-Name:
-Email: 
+
+Name: Brandon 
+Email: bdc11122@gmail.com
 Files:
 
-I have included two commented-out debug lines. One will debug whether the script is able to connect to the API and the other will debug the count object. 
 
 Python
 
