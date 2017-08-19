@@ -5,7 +5,7 @@ i = 1 # initialize at page 1
 hd_true = 0
 hd_false = 0
 
-while more == True:
+while (more == True):
 	#print i 
 	new_url = 'http://api.viki.io/v4/videos.json?app=100250a&per_page=10&page=' + str(i) #define url and increment page number
 	ebates = requests.get(new_url, headers={'User-Agent': 'Mozilla/5.0'}) #connect to ebates server
@@ -22,6 +22,6 @@ while more == True:
 	i += 1 # it will increment i and modify url page number 
 
 
-print hd_true
-print hd_false
+print 'The number of hd keys true: %s' %hd_true
+print 'The number of hd keys false: %s' %hd_false
 print new_url
