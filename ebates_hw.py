@@ -7,7 +7,7 @@ hd_false = 0
 
 while more == True:
 	#print i 
-	new_url = 'http://api.viki.io/v4/videos.json?app=100250a&per_page=500&page=' + str(i) #define url and increment page number
+	new_url = 'http://api.viki.io/v4/videos.json?app=100250a&per_page=10&page=' + str(i) #define url and increment page number
 	ebates = requests.get(new_url, headers={'User-Agent': 'Mozilla/5.0'}) #connect to ebates server
 	result = json.loads(ebates.content) #parse JSON object into an python object with attributes corresponding to dict keys
 	more = result['more'] #check if more = true then continue
@@ -24,3 +24,4 @@ while more == True:
 
 print hd_true
 print hd_false
+print new_url
