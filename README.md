@@ -30,3 +30,7 @@ Python
 - In order to stop the loop from infinitely incrementing the page url, I set the while loop condition to more value is true. 
 
 - The loop will then search the page to see if more value is true. If showing as true, the loop continue iterating the URL and will coun the number of times hd key is true or false. The loop finally stops when it sees more is false and will the amount of hd keys showing as true, false, and print the ending URL.
+
+Note 
+
+Correct outputs should be: True: 10,000 ; False: 0 ; end page: 1,000
