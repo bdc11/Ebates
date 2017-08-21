@@ -22,6 +22,6 @@ while (more == True):
 	i += 1 # it will increment i and modify url page number 
 
 
-print 'The number of hd keys true: %s' %hd_true
-print 'The number of hd keys false: %s' %hd_false
+print('The number of hd keys true: %s' %hd_true)
+print('The number of hd keys false: %s' %hd_false)
 print new_url
