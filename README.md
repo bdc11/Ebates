@@ -2,6 +2,8 @@ Ebates Assignment
 
 Description
 
+- Note: requests module is not native to python. You will need to install the requests module. Use pip install requests
+
 - The script will use python to decode the viki API.
 
 - The response of the API will be a JSON object containing a more key and response key. 
