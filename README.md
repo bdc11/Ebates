@@ -1,6 +1,6 @@
 Ebates Assignment
 
-script created for Python 2
+script created for Python 2.7.10
 
 Description
 
