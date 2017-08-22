@@ -1,6 +1,6 @@
 Ebates Assignment
 
-script created for Python 2.7.10
+Update: Original file was for python 2, but I added a python3 version titled py3_ebates_hw.py.
 
 Description
 
