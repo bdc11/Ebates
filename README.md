@@ -1,5 +1,7 @@
 Ebates Assignment
 
+script created for Python 2
+
 Description
 
 - Note: requests module is not native to python. You will need to install the requests module. Use pip install requests
